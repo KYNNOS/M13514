@@ -7,7 +7,7 @@ public class principal {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		String mensagem = "ola turma, de mensagem";
+		String mensagem = "ola turma, de mensagem \n";
 		System.out.println(mensagem);
 		int agua = 40;
 		int luz = 20;
@@ -19,8 +19,16 @@ public class principal {
 		//gas 	= 20;
 		//fibra 	= 60;
 		int despesas = agua + luz + gas + fibra;
+		System.out.println("totaldespesas = " + despesas +"\n");
 		
-		System.out.println("total = " + despesas);
+		
+		int quotas =300 , recbaile = 200, recbar = 250;
+		int totalreceitas = quotas + recbaile + recbar;
+		System.out.println("totalreceitas = " + totalreceitas+"\n");
+		
+		System.out.println("final = " + (totalreceitas - despesas)+"\n");
 	}
 
+	
+	
 }
